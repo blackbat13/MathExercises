@@ -35,3 +35,7 @@ if __name__ == "__main__":
     run_diffent_numbers([i for i in range(1, 6)], condition=lambda x: x < 50000, print_numbers=True)  # 96
     print()
     run_diffent_numbers([i for i in range(1, 6)], condition=lambda x: x > 30000, print_numbers=True)  # 72
+    print()
+    run_diffent_numbers([i for i in range(4, 10)], condition=lambda x: x % 5 == 0, print_numbers=True)  # 120
+    print()
+    run_diffent_numbers([i for i in range(4, 10)], condition=lambda x: x % 2 == 0)  # 360
